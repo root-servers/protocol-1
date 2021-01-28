@@ -46,8 +46,8 @@ contract MixinZeroExBridge {
             sellAmount
         );
         boughtAmount = ILiquidityProvider(bridgeAddress).sellTokenForToken(
-            address(sellToken),
-            address(buyToken),
+            sellToken,
+            buyToken,
             address(this), // recipient
             1, // minBuyAmount
             bridgeData
