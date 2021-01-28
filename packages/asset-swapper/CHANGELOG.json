@@ -1,5 +1,14 @@
 [
     {
+        "version": "5.9.0",
+        "changes": [
+            {
+                "note": "Fix compiler error on `ILiquidityProvider` call",
+                "pr": 127
+            }
+        ]
+    },
+    {
         "version": "5.8.2",
         "changes": [
             {
